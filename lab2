@@ -1,0 +1,16 @@
+a=1
+b=2
+c=3
+f= np.arange(2.5,3.6,0.1)
+r=[]
+for i in f:
+  if x<3:
+    y=3*a*x-2*b
+  elif x==3:
+    y=4*c*b+7*x
+  else:
+    y=2*c-3*x
+  r.append((x,y))
+
+for x,y in r:
+   print(x,y)
